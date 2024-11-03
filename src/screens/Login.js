@@ -7,7 +7,7 @@ const {height, width} = Dimensions.get('window');
 //#region Main
 export default function Login({navigation, route}) {
   return (
-    <SafeAreaView>
+    <SafeAreaView flex={1}>
       <Text>THIS IS Login SCREEN</Text>
     </SafeAreaView>
   );
